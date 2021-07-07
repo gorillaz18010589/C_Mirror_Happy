@@ -1,0 +1,2 @@
+rootProject.name = "C_Mirror_Happy"
+include ':app'
