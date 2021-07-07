@@ -35,11 +35,11 @@ public class MainActivity extends AppCompatActivity {
         initLelink();
     }
 
-    
+
     private void initLelink() {
-        String appid ="16332";
-        String deviceName ="SPIRIT XE395ENT";
-        String secret ="7b2f2a70f872daa499bfb73b5dd9c926";
+        String appid ="";
+        String deviceName ="";
+        String secret ="";
 
         mAllCast = new AllCast(this, appid, secret);
         mAllCast.setDeviceName(deviceName);
